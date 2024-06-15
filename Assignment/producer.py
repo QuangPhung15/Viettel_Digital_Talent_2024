@@ -6,7 +6,7 @@ import json
 
 # Define Kafka topic and broker
 KAFKA_TOPIC = "vdt2024"
-KAFKA_BROKER = "localhost:9092"
+KAFKA_BROKER = "localhost:9092"  # Change this to your Kafka broker address
 
 # Initialize Kafka producer
 producer = KafkaProducer(
